@@ -36,8 +36,7 @@ PAGE_TITLE = "SF Film Jam"
 PAGE_DESCRIPTION = f"SF Film Jam. Make a movie in a day. Make mistakes. Make friends."
 OG_IMAGE_URL = "images/mnkeycam2.jpg"
 OG_IMAGE_ALT = "A monkey looking into the eyepiece of a cinema camera."
-# TODO: correct url
-PAGE_URL = "sffilmjam.com"
+PAGE_URL = "https://mondomishi.github.io/sf-film-jam/"
 JOIN_BUTTON_HTML = """
 <a class="join-button" target="_blank" rel="noopener noreferrer" href="https://forms.gle/sRabh5kFdnFXgBhH8">
   Get on the list <br /> for future Jams
