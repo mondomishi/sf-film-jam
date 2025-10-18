@@ -1,1 +1,1 @@
-# [SF FILM JAM](http://mondomishi.github.io/sf-film-jam/)
+# [SF FILM JAM](https://sffilmjam.com)

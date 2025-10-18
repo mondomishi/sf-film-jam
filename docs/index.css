@@ -109,6 +109,11 @@ h3 {
   margin-top: 12px;
 }
 
+.about-info ol ul li {
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
 .mini-p {
   font-size: 1.2rem;
 }

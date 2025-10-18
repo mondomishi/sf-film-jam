@@ -7,36 +7,30 @@ NEWLINE = "\n"
 THIS_YEAR = datetime.now().year
 
 
-class FilmJamDetails(NamedTuple):
-    when: str
-    where: str
-
-    def toHtml(self):
-        items = [
-            {"label": "When", "value": "&nbsp;" + NEXT_JAM_DETAILS.when},
-            {"label": "Where", "value": NEXT_JAM_DETAILS.where},
-            {"label": "Theme", "value": "Will be revealed at the Jam!"},
-        ]
-        listItemsHtml = [
-            f"<li><span>{item['label']}:</span> {item['value']}</li>" for item in items
-        ]
-        return f"""<div class="jam-details">
-            <h3>NEXT JAM'S DETAILS</h3>
-            <ul>{' '.join(listItemsHtml)}</ul>
-        </div>"""
-
-
-NEXT_JAM_DETAILS = FilmJamDetails(
-    when="Sun, Oct 19 from 12-3pm",
-    where="Golden Gate Park, SF",
-)
-
-
+NEXT_JAM_DETAILS = """
+<div class="jam-details">
+  <h3>NEXT JAM'S DETAILS</h3>
+  <ul>
+    <li>
+      <span>When:&nbsp;</span>
+      Sun, Oct 19 from 12-3pm
+    </li>
+    <li>
+      <span>Where:</span>
+      Golden Gate Park, SF
+    </li>
+    <li>
+      <span>Theme:</span>
+      Will be revealed at the Jam!
+    </li>
+  </ul>
+</div>
+"""
+PAGE_URL = "https://sffilmjam.com"
 PAGE_TITLE = "SF Film Jam"
-PAGE_DESCRIPTION = f"SF Film Jam. Make a movie in a day. Make mistakes. Make friends."
-OG_IMAGE_URL = "images/mnkeycam2.jpg"
+PAGE_DESCRIPTION = "SF Film Jam. Make a movie in a day. Make mistakes. Make friends."
 OG_IMAGE_ALT = "A monkey looking into the eyepiece of a cinema camera."
-PAGE_URL = "https://mondomishi.github.io/sf-film-jam/"
+OG_IMAGE_URL = f"{PAGE_URL}/images/mnkeycam2.jpg"
 JOIN_BUTTON_HTML = """
 <a class="join-button" target="_blank" rel="noopener noreferrer" href="https://forms.gle/sRabh5kFdnFXgBhH8">
   Get on the list <br /> for future Jams
@@ -93,7 +87,7 @@ HTML_OUT = f"""<!DOCTYPE html>
           All experience levels welcome!!
         </p>
       </div><div id="details-and-join">
-        {NEXT_JAM_DETAILS.toHtml()}
+        {NEXT_JAM_DETAILS}
         {JOIN_BUTTON_HTML}
       </div><div class="about-info">
         <h3>HOW IT WORKS</h3>
