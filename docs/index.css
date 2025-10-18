@@ -62,7 +62,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 #main > * {
@@ -110,11 +110,11 @@ h3 {
 }
 
 .mini-p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 #my-quote {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border-left: 2px solid #00000066;
   padding: 8px 0 8px 16px;
 }
@@ -140,12 +140,19 @@ h3 {
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
-/* 1080 = arbitrary cutoff for 4 cols to 2 cols */
-@media (max-width: 1080px) {
+/* 870 = arbitrary cutoff for title to not look dumb */
+@media (max-width: 870px) {
+  #main-title {
+    font-size: 7rem;
+  }
 }
 
-/* 790 = arbitrary cutoff for details and join button to break into two lines */
-@media (max-width: 790px) {
+/* 800 = arbitrary cutoff for details and join button to break into two lines */
+@media (max-width: 800px) {
+  #main-title {
+    font-size: 6rem;
+  }
+
   #details-and-join {
     flex-direction: column;
   }
@@ -163,8 +170,8 @@ h3 {
   }
 }
 
-/* 566 = profilePicWidth(200) + toplineMarginLeft(36) + titlWidth(234) + 2 * titleMarginLeft(48) */
-@media (max-width: 566px) {
+/* 590 =  */
+@media (max-width: 590px) {
   #top-line {
     padding: 24px;
   }
@@ -179,21 +186,16 @@ h3 {
   }
 }
 
-/* 520 = arbitrary cutoff for title to not look dumb
-@media (max-width: 520px) {
+/* 550 = arbitrary cutoff for title to not look dumb */
+@media (max-width: 550px) {
   #main-title {
-    font-size: 4rem;
+    font-size: 5rem;
   }
-} */
-
+}
 
 @media (max-width: 500px) {
   #title-pic {
-    max-height: 100px;
-  }
-
-  #main-title {
-    font-size: 4.3rem;
+    display: none;
   }
 }
 

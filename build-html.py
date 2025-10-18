@@ -13,7 +13,7 @@ class FilmJamDetails(NamedTuple):
 
     def toHtml(self):
         items = [
-            {"label": "When", "value": NEXT_JAM_DETAILS.when},
+            {"label": "When", "value": "&nbsp;" + NEXT_JAM_DETAILS.when},
             {"label": "Where", "value": NEXT_JAM_DETAILS.where},
             {"label": "Theme", "value": "Will be revealed at the Jam!"},
         ]
@@ -72,8 +72,12 @@ HTML_OUT = f"""<!DOCTYPE html>
           src="{OG_IMAGE_URL}"
         />
         <div id="titles">
-        <h1 id="main-title">{PAGE_TITLE}</h1>
-        <h2 class="sub-title">make mistakes. finish a movie. somewhat often.</h2>
+          <h1 id="main-title">{PAGE_TITLE}</h1>
+          <div id="subtitles">
+            <h2 class="sub-title">make mistakes.</h2>
+            <h2 class="sub-title">finish a movie.</h2>
+            <h2 class="sub-title">somewhat often.</h2>
+          </div>
         </div>
       </div>
     </header>
@@ -98,12 +102,12 @@ HTML_OUT = f"""<!DOCTYPE html>
             You tell me:
             <ul style="list-style-type: disc">
               <li>
-                <p>what roles you're comfortable being assigned</p>
+                <p>what ROLE(s) you're comfortable being assigned</p>
                 <p class="mini-p">(screenwriter, actor, director, camera operator, ... etc)</p>
                 <p class="mini-p">(all experience levels welcome!!)</p>
               </li>
               <li>
-                <p>what gear you can bring</p>
+                <p>what GEAR you can bring</p>
                 <p class="mini-p">(camera, tripod, lights, ... etc)</p>
                 <p class="mini-p">(its ok if you can't bring anything!)</p>
               </li>
