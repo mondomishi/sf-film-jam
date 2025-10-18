@@ -13,11 +13,11 @@ NEXT_JAM_DETAILS = """
   <ul>
     <li>
       <span>When:&nbsp;</span>
-      Sun, Oct 19 from 12-3pm
+      Sun, Oct 19 from 1-4pm
     </li>
     <li>
       <span>Where:</span>
-      Golden Gate Park, SF
+      Buena Vista Park, SF
     </li>
     <li>
       <span>Theme:</span>
