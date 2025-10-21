@@ -13,11 +13,17 @@ NEXT_JAM_DETAILS = """
   <ul>
     <li>
       <span>When:&nbsp;</span>
-      Sun, Oct 19 from 1-4pm
+      Sun, Oct 26 from 12-4pm
+    </li>
+    <li>
+      &nbsp;&nbsp;&nbsp;&nbsp;12-2pm: Pre-Production and Lunch!
+    </li>
+    <li>
+      &nbsp;&nbsp;&nbsp;&nbsp;2-4pm: Shooting, Post-Production
     </li>
     <li>
       <span>Where:</span>
-      Buena Vista Park, SF
+      Marina District, SF (exact location tbd)
     </li>
     <li>
       <span>Theme:</span>
