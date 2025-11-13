@@ -73,6 +73,7 @@ h3 {
 
 #details-and-join {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -80,6 +81,7 @@ h3 {
 
 .jam-details {
   margin-right: 48px;
+  margin-bottom: 48px;
 }
 
 .jam-details ul {
@@ -156,14 +158,6 @@ h3 {
 @media (max-width: 800px) {
   #main-title {
     font-size: 6rem;
-  }
-
-  #details-and-join {
-    flex-direction: column;
-  }
-
-  .jam-details {
-    margin-bottom: 48px;
   }
 }
 

@@ -13,7 +13,7 @@ NEXT_JAM_DETAILS = """
   <ul>
     <li>
       <span>When:&nbsp;</span>
-      Sun, Oct 26 from 12-4pm
+      Sun, Nov 17 from 12-4pm
     </li>
     <li>
       &nbsp;&nbsp;&nbsp;&nbsp;12-2pm: Pre-Production and Lunch!
@@ -23,7 +23,7 @@ NEXT_JAM_DETAILS = """
     </li>
     <li>
       <span>Where:</span>
-      Marina District, SF (exact location tbd)
+      Outer Richmond, SF (exact location tbd)
     </li>
     <li>
       <span>Theme:</span>
