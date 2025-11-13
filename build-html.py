@@ -13,7 +13,7 @@ NEXT_JAM_DETAILS = """
   <ul>
     <li>
       <span>When:&nbsp;</span>
-      Sun, Nov 17 from 12-4pm
+      Sun, Nov 16 from 12-4pm
     </li>
     <li>
       &nbsp;&nbsp;&nbsp;&nbsp;12-2pm: Pre-Production and Lunch!
