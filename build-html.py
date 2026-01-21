@@ -13,7 +13,7 @@ NEXT_JAM_DETAILS = """
   <ul>
     <li>
       <span>When:&nbsp;</span>
-      Sun, Nov 16 from 12-4pm
+      Sun, Jan 25 from 12-4pm
     </li>
     <li>
       &nbsp;&nbsp;&nbsp;&nbsp;12-2pm: Pre-Production and Lunch!
@@ -23,7 +23,7 @@ NEXT_JAM_DETAILS = """
     </li>
     <li>
       <span>Where:</span>
-      Outer Richmond, SF (exact location tbd)
+      Outer Sunset, SF (exact location tbd)
     </li>
     <li>
       <span>Theme:</span>
